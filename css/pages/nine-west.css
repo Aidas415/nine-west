@@ -1,0 +1,103 @@
+.main {
+    height: 46vh;
+    text-transform: uppercase;
+}
+
+.upper {
+    display: flex;
+    flex-direction: row;
+    height: 12vh;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    width: 1050px;
+    background-color: antiquewhite;
+}
+
+.title-row {
+    font-size: 3.2rem;
+    padding-left: 10px;
+}
+
+.nav-row {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 1em;
+    gap: 30px;
+    background-color: aquamarine;
+}
+
+.nav-row a {
+    text-decoration: none;
+    color: black;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    gap: 20px;
+    width: 450px;
+    height: 5vh;
+    font-size: 0.8em; 
+    justify-content: flex-end;
+    background-color: aqua;
+}
+
+.description a {
+    text-decoration: none;
+    color: black;
+}
+
+.search-field {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 450px;
+    height: 7vh;
+    gap: 20px;
+    background-color: yellow;
+}
+
+.form input {
+    width: 300px;
+    height: 5vh;
+    padding-left: 30px;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+
+.search-field a {
+    text-decoration: none;
+    font-size: 1.4em;
+    color: black;
+}
+
+.background {
+    height: 34vh;
+    background-color: aqua;
+}
+
+.background img {
+    max-width: 1500px;
+    height: 33.5vh;
+}
+
+
+
+
+
+
+
+
+
