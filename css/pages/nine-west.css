@@ -73,15 +73,22 @@
     width: 100%;
     height: 7vh;
     gap: 5%;
+    background-color: aqua;
 }
 
-.form input {
-    width: 370px;
-    height: 5.5vh;
-    font-size: 1em;
-    padding-left: 40px;
+.search-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 1.5vh;
+    padding-left: 20px;
+    gap: 30px;
     text-transform: capitalize;
+    width: 390px;
+    height: 5vh;
+    font-size: 1em;
 }
+
 
 .search-field a {
     text-decoration: none;
