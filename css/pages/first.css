@@ -23,7 +23,7 @@
 }
 
 
-.right-column {
+.right-text {
     display: flex;
     flex-direction: row;  
     width: 100%;
@@ -64,7 +64,7 @@
     color: rgb(113, 128, 198);
 }
 
-.left-column {
+.left-text {
     display: flex;
     flex-direction: row; 
     justify-content: space-between; 
