@@ -14,7 +14,7 @@
     font-size: 4rem;
     font-weight: lighter;
     padding-left: 5px;
-    color: rgba(30, 30, 30, 1);
+    color: rgb(30, 30, 30, 1);
 }
 
 .nav-row {
@@ -23,7 +23,7 @@
     padding-left: 5px;
     padding-top: 14px;
     font-size: 1em;
-    color: rgba(92, 92, 92, 0.9);
+    color: rgb(92, 92, 92, 0.9);
     gap: 4%;
 }
 
@@ -69,30 +69,30 @@
 .search-field {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    position: relative;
     width: 100%;
     height: 7vh;
     gap: 5%;
 }
 
-.search-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    font-size: 2em;
-    padding-top: 1.5vh;
-    padding-left: 20px;
-    gap: 30px;
-    text-transform: capitalize;
-    width: 390px;
-    height: 5vh;
-    font-size: 1em;
+.button input {
+    width: 380px;
+    height: 5.5vh;
+    font-size: 1.2em;
 }
 
+.button i {
+    position: absolute;
+    font-size: 1.5em;
+    color: rgb(3, 30, 30, 0.7);
+    top: 1.4vh;
+    right: 94%;
+}
 
 .search-field a {
     text-decoration: none;
-    font-size: 1.4em;
+    margin-top: 1.2vh;
+    font-size: 2.4em;
     color: rgb(30, 30, 30);
 }
 

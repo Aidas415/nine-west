@@ -6,17 +6,14 @@
     width: 100%;
     height: 38vh;
 }
-
 .compact {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .image {
     width: 25%;
 }
-
 .compact p {
     padding-top: 3vh;
     text-transform: capitalize;
@@ -24,6 +21,140 @@
     font-weight: 500;
     color: rgba(30, 30, 30, 1);
 }
+
+
+.right-column {
+    display: flex;
+    flex-direction: row;  
+    width: 100%;
+    height: 75vh; 
+}
+.right {
+    width: 48%;
+    float: left;
+}
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 25%;
+}
+.right-side h3 {
+    padding-bottom: 0.5em;
+    font-size: 1.8em;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.right-side p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    line-height: 2em;
+    font-size: 1.3em;
+    background-color: aqua;
+}
+.right-side a {
+    text-transform: uppercase;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+.right-side a:hover{
+    color: rgb(113, 128, 198);
+}
+
+.left-column {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    width: 100%;
+    height: 75vh; 
+}
+.left {
+    width: 48%;
+    float: right;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 25%;
+    background-color: chartreuse;
+}
+.left-side h3 {
+    padding-bottom: 0.5em;
+    font-size: 1.8em;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.left-side p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 65%;
+    line-height: 2em;
+    font-size: 1.3em;
+    background-color: aqua;
+}
+.left-side a {
+    text-transform: uppercase;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+.left-side a:hover{
+    color: rgb(113, 128, 198);
+}
+.end {
+    display:flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    width: 100%;
+    height: 80vh;
+}
+.images-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 25vh;
+    background-color: coral;
+}
+.last {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+.end h3 {
+     padding-bottom: 0.5em;
+    font-size: 1.8em;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.end p {
+    display: flex;
+    flex-direction: row;
+    line-height: 2em;
+    font-size: 1.3em;
+    background-color: aqua;
+}
+.end a {
+    text-transform: uppercase;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+.end a:hover {
+    color: rgb(113, 128, 198);
+}
+.final {
+    width: 100%;
+    height: 20vh;
+}
+
+
+
+
 
 
 
