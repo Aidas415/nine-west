@@ -1,8 +1,27 @@
-.background img {
+.background-first {
     width: 100%;
-    height: 37vh;
+    height: 32vh;
 }
 
+.background-second {
+    width: 100%;
+    height: 79vh;
+}
 
+.up-image {
+    width: 100%;
+    height: 15vh;
+    float: inline-end;
+}
 
+.imdown-image {
+    width: 18%;
+    height: 27vh;
+    float: left;
+}
 
+.down-image {
+    width: 16%;
+    height: 27vh;
+    float: left;
+}

@@ -1,0 +1,16 @@
+.second-column {
+    margin-left: 2%;  
+    margin-right: 4%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-image {
+    width: 46%;
+}
+
+.right-image {
+    width: 54%;
+}
+
+

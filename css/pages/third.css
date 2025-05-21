@@ -1,0 +1,39 @@
+.third-column {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 96vh;
+}
+
+.image-column {
+    width: 33%;
+    background-color: rgb(156, 156, 213);
+}
+
+.image-column img {
+    width: 100%;
+}
+
+.image-column h2 {
+    padding: 1.5vh 5vh;
+    text-transform:uppercase;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.about {
+    padding-left: 5vh;
+    width: 45%;
+    font-size: 1.3em;
+    line-height: 2em;
+    color: gba(30, 30, 30, 1);
+    background-color: aqua;
+}
+
+.image-column a {
+    
+}
+
+
