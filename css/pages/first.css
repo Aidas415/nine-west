@@ -61,6 +61,7 @@
     font-size: 1.5em;
 }
 .right-side a:hover{
+    font-weight: bolder;
     color: rgb(113, 128, 198);
 }
 
@@ -104,6 +105,7 @@
     font-size: 1.5em;
 }
 .left-side a:hover{
+    font-weight: bolder;
     color: rgb(113, 128, 198);
 }
 .end {
